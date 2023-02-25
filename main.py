@@ -5,7 +5,6 @@ def face_capture():
     cascade_path = ''
 
     clf = cv2.CascadeClassifier(cascade_path)
-    camera = cv2.VideoCapture('')
 
     while True:
         _, frame = camera.read()
